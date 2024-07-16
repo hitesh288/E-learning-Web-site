@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -12,13 +12,12 @@ body {
 }
 
 header {
-    background: linear-gradient(90deg, #ff8c00, #ffa500);
-    color: #000000;
+    background: linear-gradient(90deg, #004e92, #000428);
+    color: #ffffff;
     padding: 20px 0;
     text-align: center;
     overflow: hidden;
 }
-
 
 header .logo {
     float: left;
@@ -26,8 +25,7 @@ header .logo {
     font-weight: bold;
     padding: 10px 0;
     vertical-align: middle;
-    font-family:initial;
-    
+    font-family: 'Montserrat', sans-serif;
 }
 
 header nav {
@@ -54,7 +52,7 @@ header nav ul li a {
 }
 
 header nav ul li a:hover {
-    color: #000000;
+    color: #ffa500;
 }
 
 .hero {
@@ -76,7 +74,7 @@ header nav ul li a:hover {
 }
 
 .hero .btn {
-    background: rgb(255, 0, 0);
+    background: #ffa500;
     color: #000000;
     padding: 12px 24px;
     text-decoration: none;
@@ -86,11 +84,11 @@ header nav ul li a:hover {
 }
 
 .hero .btn:hover {
-    background: #ffbb00;
+    background: #ff8c00;
 }
 
 .features {
-    background: #f4f4f4;
+    background: #ffffff;
     padding: 50px 0;
     text-align: center;
 }
@@ -99,7 +97,7 @@ header nav ul li a:hover {
     display: inline-block;
     width: 30%;
     margin: 0 2%;
-    background: #ffffff;
+    background: #f4f4f4;
     padding: 30px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
     transition: transform 0.3s ease;
@@ -111,7 +109,7 @@ header nav ul li a:hover {
 
 .features .icon {
     font-size: 50px;
-    color: #f00;
+    color: #004e92;
     margin-bottom: 20px;
     cursor: pointer;
 }
@@ -139,7 +137,7 @@ header nav ul li a:hover {
 
 .popular-courses .course:hover {
     transform: translateY(-10px);
-    color:rgb(0, 140, 255);
+    color: #004e92;
 }
 
 .popular-courses .course img {
@@ -153,9 +151,8 @@ header nav ul li a:hover {
     cursor: pointer;
 }
 
-
 .testimonials {
-    background: #333;
+    background: #004e92;
     color: #fff;
     padding: 50px 0;
     text-align: center;
@@ -189,13 +186,6 @@ header nav ul li a:hover {
 }
 
 footer {
-    background: #333;
-    color: #fff;
-    text-align: center;
-    padding: 20px 0;
-}
-
-footer p {
-    font-size: 14px;
-    margin: 0;
+    background: #ffffff;
+    color: #000000;
 }
